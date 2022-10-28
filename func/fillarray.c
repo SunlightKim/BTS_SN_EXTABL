@@ -12,6 +12,7 @@ void fillColumns(int array[SIZE][SIZE])
         array[i][0] = 1;
         printf("Value in column 0, row %d is %d\n", i, array[i][0]);
     }
+    printf("\n");
 }
 
 void fillRows(int array[SIZE][SIZE])
@@ -21,7 +22,7 @@ void fillRows(int array[SIZE][SIZE])
         array[0][i] = 1;
         printf("Value in row 0, column %d is %d\n", i, array[0][i]);
     }
-
+    printf("\n");
 }
 
 void fillBorder(int array[SIZE][SIZE])
